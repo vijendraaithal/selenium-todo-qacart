@@ -12,7 +12,7 @@ jobs:
         uses: actions/setup-java@v2
         with:
           java-version: '23'
-          distribution: 'oracle'
+          distribution: 'adopt'
 
       - name: Setup Chrome
         uses: browser-actions/setup-chrome@latest
